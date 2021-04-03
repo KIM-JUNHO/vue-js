@@ -3,11 +3,4 @@ var app = new Vue({
   data: {
     message: 'Hello Vue.js!',
   },
-  methods: {
-    reverseMessage: function () {
-      this.message = this.message.split('').reverse().join('');
-    },
-  },
 });
-
-app.todos.push({ text: 'New item' });
