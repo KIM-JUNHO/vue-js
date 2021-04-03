@@ -35,6 +35,7 @@
             ></div>
             <button
               class="button"
+              :class="{ disabledButton: !inStock }"
               :disabled="!inStock"
               @click="addToCart"
             >
